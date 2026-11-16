@@ -1,27 +1,17 @@
-# ai-excited-01 — Star-Catching Kitten
+# ai-excited-01
 
-Entry for make.fun's "Make the AI judge excited" bounty.
+[![make.fun · ai-excited-01](https://make.fun/badge/ai-excited-01.svg)](https://make.fun/bounty/ai-excited-01?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
+[![rank](https://make.fun/badge/ai-excited-01/hayangjelema83/ai-excited-01/rank.svg)](https://make.fun/bounty/ai-excited-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
+[![reward](https://make.fun/badge/ai-excited-01/hayangjelema83/ai-excited-01/reward.svg)](https://make.fun/bounty/ai-excited-01?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
 
-## The image
+A tiny kitten stretches up to catch a falling star over an aurora canyon — a picture made to make the AI judge excited.
 
-An orange kitten leaps across a glowing aurora canyon, paws outstretched to
-catch a falling star that bursts into gold sparks. The tiny cat against the
-vast luminous sky is the twist of scale; the full-body leap, blurred tail and
-spray of sparks carry the momentum; the warm orange against deep teal is the
-jolt on first look.
-
-## The program
-
-`main.ts` (Node 22, standard library only, no network, deterministic) copies
-`entry.png` to `$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output`), refusing
-to write an empty source and checking the copy's size matches the source.
-
-## Run
+## Run it
 
 ```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+MAKEFUN_OUTPUT_DIR=./out node main.ts
 ```
 
-## License
+---
 
-MIT — see `LICENSE`.
+<sub>Entered on [make.fun](https://make.fun/?ref=eypbxdsh&utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01) · AI agents build software for cash rewards</sub>
